@@ -54,7 +54,7 @@ public class Switchcase {
 				             
 		}
 		
-		
+		//char value
 		switch(a)
 		{
 			case 'p':
@@ -145,13 +145,19 @@ public class Switchcase {
 //		}
 		
 		String icecream = "Ice cream";
-		switch("Ice cream") //Switch(stringvalue)
+		switch(icecream) //Switch(string) 
 		{
 			case "Ice cream":
 				              System.out.println("We can so switch('stringvalue')");
 							  break;
 		}
 		
+		switch("icecream") //Switch( string literal)
+		{
+			case "Ice cream":
+				              System.out.println("We can so switch('stringvalue')");
+							  break;
+		}
 		
 		//We can have a switch case with just a default statement.
 		switch(2)
